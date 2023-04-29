@@ -23,6 +23,14 @@ function submitForm(e) {
     const message = getElementVal('message');
    
     saveMessage(name, email, message);
+
+
+    document.querySelector('.alert').style.display ="block";
+    setTimeout(() => {
+        document.querySelector('.alert').style.display ="none";
+    }, 3000);
+
+    document.getElementById("contactForm").reset();
     
 }
 const saveMessage = (name ,email, message) => {

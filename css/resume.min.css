@@ -104,6 +104,11 @@ section.resume-section .resume-item .resume-date{
     }
     
 }
+@media (max-width: 600px) {
+    .progress  {
+        display: none;
+    }
+}
 .bg-primary{
         background-color: #0000ff!important
     }
@@ -115,3 +120,25 @@ a{
 a:active,a:focus,a:hover{
     color:#0000ff
         }
+.btn {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 25px;
+    color: #ffffff;
+    border-radius:10px;
+    background-color:#0000ff;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #010305;
+}
+.alert {
+    width: 100%;
+    background-color: rgb(78, 177, 78);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    display: none;
+    }
