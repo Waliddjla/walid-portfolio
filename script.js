@@ -14,18 +14,24 @@ document.addEventListener('DOMContentLoaded', () => {
         modalImage.src = image.src;
         modalImage.alt = image.alt;
         modalImage.className = 'modal-image';
+        // Create a close button
+      const closeButton = document.createElement('button');
+      closeButton.className = 'close-button';
+      closeButton.innerHTML = 'X';
   
         // Append the image to the modal
         modal.appendChild(modalImage);
 
-        
+        modal.appendChild(closeButton);
   
         // Add the modal to the document body
         document.body.appendChild(modal);
   
         // Close the modal when clicked outside the image
-        modal.addEventListener('click', () => {
+        modal.addEventListener('click', (event) => {
+          if (event.target === modal || event.target === closeButton) {
           modal.remove();
+        }
         });
       });
     });

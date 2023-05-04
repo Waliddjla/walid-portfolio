@@ -136,8 +136,7 @@ a:active,a:focus,a:hover{
     color:#0000ff
         }
 .btn {
-    border-color: blue;
-    color: #fff;
+    border-color:  #0000ff ;
     box-shadow: 0 0 40px 40px blue inset, 0 0 0 0 blue;
     transition: all 150ms ease-in-out;
     align-items: center;
@@ -158,11 +157,11 @@ a:active,a:focus,a:hover{
     display: none;
     }    
 .card {
-width: 18rem;
+width: 17rem;
 }
 .card-text {
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     text-decoration: none;
     color: #333333;
     text-align: justify;
@@ -201,9 +200,22 @@ width: 18rem;
     z-index: 999;
   }
   .modal-image {
-    max-width: 800px;
-    max-height: 800px;
+    max-width: 70%;
+    max-height: 80%;
   }
+.close-button {
+    position: absolute;
+    top: 40px;
+    right: 200px;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(223, 12, 12);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black ;
+    border-radius: 50%;
+    cursor: pointer;
+}
 @media screen and (max-width:992px){   
     .modal {
         position: fixed;
@@ -218,6 +230,12 @@ width: 18rem;
         max-width: 700px;
         max-height: 700px;
       }
+      .close-button {
+        position: absolute;
+        top: 100px;
+        right: 70px;
+    }
+
 }
 
 @media screen and (max-width:700px){   
@@ -234,6 +252,12 @@ width: 18rem;
         max-width: 570px;
         max-height: 600px;
       }
+      .close-button {
+        position: absolute;
+        top: 230px;
+        right: 30px;
+    }
+
 }
 
 @media screen and (max-width:550px){   
@@ -250,6 +274,11 @@ width: 18rem;
         max-width: 450px;
         max-height: 600px;
       }
+      .close-button {
+        position: absolute;
+        top: 230px;
+        right: 30px;
+    }
 }
 @media screen and (max-width:450px){   
     .modal {
@@ -265,6 +294,11 @@ width: 18rem;
         max-width: 300px;
         max-height: 500px;
       }
+      .close-button {
+        position: absolute;
+        top: 300px;
+        right: 50px;
+    }
 }
 .resume-section#about {
     background: url("/img/develper.jpg");
