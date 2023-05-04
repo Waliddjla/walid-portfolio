@@ -224,5 +224,14 @@ width: 18rem;
     .abstract {
         font-size:12px
     }
+    .resume-section#about {
+
+        background: url("/img/develper.jpg");
+        background-size: cover;
+        width: 600px;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
     
+    }
 }
