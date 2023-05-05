@@ -52,3 +52,17 @@ function ReadMore () {
         moreText.style.display = "inline";
       }
 }
+function toggleDarkMode() {
+  const body = document.body;
+  body.classList.toggle('dark-mode');
+
+  // Save the user's preference in local storage
+  const isDarkMode = body.classList.contains('dark-mode');
+  localStorage.setItem('dark-mode', isDarkMode);
+}
+
+// Check user's preference from local storage on page load
+const isDarkMode = localStorage.getItem('dark-mode') === 'true';
+if (isDarkMode) {
+  document.body.classList.add('dark-mode');
+}
