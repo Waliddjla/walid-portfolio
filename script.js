@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Get all the images
     const images = document.querySelectorAll('.image');
   
+  
     // Add a click event listener to each image
     images.forEach(image => {
       image.addEventListener('click', () => {
@@ -36,22 +37,23 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   });
-  
-function ReadMore () {
-    const dots = document.getElementById("dots");
-    const moreText = document.getElementById("more");
-    const btnText = document.getElementById("myBtn");
 
+  //Read more less fuction
+  function ReadMore(dotsId, moreId, btnId) {
+    const dots = document.getElementById(dotsId);
+    const moreText = document.getElementById(moreId);
+    const btnText = document.getElementById(btnId);
+  
     if (dots.style.display === "none") {
-        dots.style.display = "inline";
-        btnText.innerHTML = "Read more";
-        moreText.style.display = "none";
-      } else {
-        dots.style.display = "none";
-        btnText.innerHTML = "Read less";
-        moreText.style.display = "inline";
-      }
-}
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less";
+      moreText.style.display = "inline";
+    }
+  }
 function toggleDarkMode() {
   const body = document.body;
   body.classList.toggle('dark-mode');
@@ -66,3 +68,4 @@ const isDarkMode = localStorage.getItem('dark-mode') === 'true';
 if (isDarkMode) {
   document.body.classList.add('dark-mode');
 }
+

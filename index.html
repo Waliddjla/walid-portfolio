@@ -30,7 +30,7 @@
     
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-      <button onclick="toggleDarkMode()"class="btnD btn-dark"><i class="fa fa-moon-o"></i></button>
+      <button onclick="toggleDarkMode()"class="btnD btn-dark" style="cursor:pointer;"><i class="fa fa-moon-o"></i></button>
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
         <span class="d-block d-lg-none">Djellali Walid</span>
         <span class="d-none d-lg-block">
@@ -154,6 +154,7 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
         <div class="my-auto">
           <h2 class="mb-5">Projects</h2>
+          
           <div class="resume-item d-flex flex-column flex-md-row mb-5 ">
           <div class="card m-2" style="width:20rem;">
             <div id="myCarousel0" class="carousel slide" data-ride="carousel">
@@ -167,6 +168,7 @@
               <!-- Slides -->
               <div class="carousel-inner">
                 <div class="carousel-item active">
+
                   <img class="image" src="./img/Master.png" alt="Image 1" style="width:100%;height:120px;">
                 </div>
                 <div class="carousel-item">
@@ -176,7 +178,8 @@
                   <img class="image" src="./img/heatmap.png" alt="Image 3" style="width:100%; height:120px;">
                 </div>
               </div>
-            
+              
+    
               <!-- Controls -->
               <a class="carousel-control-prev" href="#myCarousel0" data-slide="prev">
                 <span class="carousel-control-prev-icon"></span>
@@ -189,7 +192,7 @@
               <h5 class="card-title">Master Project</h5>
               <p class="card-text">This master thesis focused on the development of an evapotranspiration prediction 
                 system using Python as the programming language. Several libraries were utilized, including NumPy, 
-                Keras, Seaborn, Matplotlib, and Pandas. <span id="dots">...</span> <span id="more"> The objective was to leverage machine learning and deep learning algorithms such as Support Vector Machine (SVM), linear regression, and Sequential Multi-Layer Perceptron (MLP) to achieve accurate predictions.
+                Keras, Seaborn, Matplotlib, and Pandas. <span id="dots0">...</span> <span id="more0"> The objective was to leverage machine learning and deep learning algorithms such as Support Vector Machine (SVM), linear regression, and Sequential Multi-Layer Perceptron (MLP) to achieve accurate predictions.
                 The research aimed to contribute to the growing success of machine learning models in evapotranspiration prediction and attract the attention of
                  researchers in the field. The selection of appropriate 
                  algorithms was a crucial aspect of the study to ensure an effective final prediction. 
@@ -200,11 +203,10 @@
                 analyze the results. It was observed that machine learning exhibited high efficiency, and the accuracy
                 of the predictions was deemed satisfactory.
                 This work demonstrated the power and potential of various machine learning models in the realm of artificial intelligence programming for evapotranspiration prediction. The findings of this research are expected to significantly improve irrigation planning and contribute to effective water management strategies.</span></p>
-                 <button onclick="ReadMore()" id="myBtn">Read More</button>
+                 <button onclick="ReadMore('dots0', 'more0', 'myBtn0')" id="myBtn0">Read More</button>
                  <br>
                  <br>
-
-                 <a href="#" class="btn btn-primary">View Project</a>
+                 <a href="#" class="btn btn-primary">View Code</a>
             </div>
           </div>
 
@@ -235,8 +237,20 @@
             </div>
             <div class="card-body" >
               <h5 class="card-title">Picker Color</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">View Project</a>
+              <p class="card-text">The color picker extension is a valuable tool built using HTML, CSS, and
+                 JavaScript that simplifies the process of identifying colors within web applications.
+                  With this extension, users can effortlessly select a color by clicking on it, <span id="dots1">...</span> <span id="more1">
+                  and instantly retrieve its corresponding ID. This functionality streamlines the 
+                  workflow of developers and designers, eliminating the need for manual color 
+                  identification. By seamlessly integrating the color picker extension into their projects,
+                   web professionals can enhance the user experience and ensure accurate color representation
+                    throughout their applications. The combination of HTML, CSS, and JavaScript
+                     empowers developers to create a visually appealing and user-friendly interface,
+                      providing an intuitive and efficient solution for color selection and identification.</p></span>
+                      <button onclick="ReadMore('dots1', 'more1', 'myBtn1')" id="myBtn1">Read More</button>  
+                      <br>
+                      <br>
+                      <a href="#" class="btn btn-primary">View Code</a>
             </div>
           </div>
           <div class="card m-2" style="width: 20rem;">
@@ -271,10 +285,20 @@
                 <span class="carousel-control-next-icon"></span>
               </a>
             </div>
-            <div class="card-body" >
+            <div class="card-body">
               <h5 class="card-title">GYM project</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">View Project</a>
+              <p class="card-text">Walid Gym's website, built using HTML, CSS, and JavaScript,
+                 presents a self-project that showcases the gym's equipment and prices. With a visually
+                  appealing design and seamless navigation, visitors can explore<span id="dots2">...</span> <span id="more2"> the various offerings effortlessly.
+                   The website provides detailed information about the gym's state-of-the-art equipment and transparent
+                    pricing options. Contact information is readily available, allowing potential members to easily 
+                    get in touch for inquiries or consultations. Through the clever use of HTML, CSS, and JavaScript, 
+                    the website delivers an engaging user experience and
+                   fosters effective communication between users and the gym.</p></span>
+                 <button onclick="ReadMore('dots2', 'more2', 'myBtn2')" id="myBtn2">Read More</button>  
+                 <br>
+                 <br>
+              <a href="#" class="btn btn-primary">View Code</a>
             </div>
           </div>
 
@@ -307,62 +331,69 @@
             </div>
             <div class="card-body" >
               <h5 class="card-title">Connect Game</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">View Project</a>
+              <p class="card-text">onnect Game is an exciting and engaging game built using React, a popular JavaScript
+                 library for building user interfaces. Inspired by the classic XOXO game, Connect Game introduces 
+                 a colorful twist to the gameplay. Players aim to <span id="dots3">...</span> <span id="more3"> complete lines of colors instead of Xs or Os.
+                  The objective of the game is to strategically place colored tokens on a grid, attempting to 
+                  connect a line of colors before the opponent or the game's AI bot does. The game's user-friendly 
+                  interface allows players to easily interact with the grid, placing their tokens strategically and 
+                  tracking their progress. With React's component-based architecture and efficient state management, 
+                  the Connect Game provides a seamless and immersive gaming experience. Players can enjoy challenging
+                  matches against the AI bot, testing their strategic thinking and color-connecting skills.</p></span>
+                  <button onclick="ReadMore('dots3', 'more3', 'myBtn3')" id="myBtn3">Read More</button> 
+                  <br>
+                  <br>
+                  <a href="#" class="btn btn-primary">View Code</a>
             </div>
           </div>   
         </div>
         <div class="resume-item d-flex flex-column flex-md-row mb-5 ">
           <div class="card m-2" style="width:20rem;">
-            <div id="myCarousel0" class="carousel slide" data-ride="carousel">
+            <div id="myCarousel4" class="carousel slide" data-ride="carousel">
               <!-- Indicators -->
               <ul class="carousel-indicators">
-                <li data-target="#myCarousel0" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel0" data-slide-to="1"></li>
-                <li data-target="#myCarousel0" data-slide-to="2"></li>
+                <li data-target="#myCarousel4" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel4" data-slide-to="1"></li>
+                <li data-target="#myCarousel4" data-slide-to="2"></li>
+                <li data-target="#myCarousel4" data-slide-to="3"></li>
+                <li data-target="#myCarousel4" data-slide-to="4"></li>
               </ul>
             
               <!-- Slides -->
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img class="image" src="./img/Master.png" alt="Image 1" style="width:100%;height:120px;">
+                  <img class="image" src="./img/bazoka.PNG" alt="Image 1" style="width:100%;height:120px;">
                 </div>
                 <div class="carousel-item">
-                  <img class="image" src="./img/tab.png" alt="Image 2" style="width:100%; height:120px;">
+                  <img class="image" src="./img/bazoka2.png" alt="Image 2" style="width:100%; height:120px;">
                 </div>
                 <div class="carousel-item">
-                  <img class="image" src="./img/heatmap.png" alt="Image 3" style="width:100%; height:120px;">
+                  <img class="image" src="./img/bazzoka3.PNG" alt="Image 3" style="width:100%; height:120px;">
+                </div>
+                <div class="carousel-item">
+                  <img class="image" src="./img/bazzoka4.PNG" alt="Image 3" style="width:100%; height:120px;">
+                </div>
+                <div class="carousel-item">
+                  <img class="image" src="./img/bazzoka5.PNG" alt="Image 3" style="width:100%; height:120px;">
                 </div>
               </div>
             
               <!-- Controls -->
-              <a class="carousel-control-prev" href="#myCarousel0" data-slide="prev">
+              <a class="carousel-control-prev" href="#myCarousel4" data-slide="prev">
                 <span class="carousel-control-prev-icon"></span>
               </a>
-              <a class="carousel-control-next" href="#myCarousel0" data-slide="next">
+              <a class="carousel-control-next" href="#myCarousel4" data-slide="next">
                 <span class="carousel-control-next-icon"></span>
               </a>
             </div>
             <div class="card-body">
               <h5 class="card-title">Master Project</h5>
-              <p class="card-text">This master thesis focused on the development of an evapotranspiration prediction 
-                system using Python as the programming language. Several libraries were utilized, including NumPy, 
-                Keras, Seaborn, Matplotlib, and Pandas. <span id="dots">...</span> <span id="more"> The objective was to leverage machine learning and deep learning algorithms such as Support Vector Machine (SVM), linear regression, and Sequential Multi-Layer Perceptron (MLP) to achieve accurate predictions.
-                The research aimed to contribute to the growing success of machine learning models in evapotranspiration prediction and attract the attention of
-                 researchers in the field. The selection of appropriate 
-                 algorithms was a crucial aspect of the study to ensure an effective final prediction. 
-                 Through efficient study and programming, the models were developed to effectively utilize these 
-                 algorithms within the context of the evapotranspiration prediction 
-                system.To evaluate the effectiveness of the developed models,
-                several prediction models were applied and tested on a dataset. Different results were obtained for each model, allowing for a comprehensive analysis and comparison. Statistical and graphical tests were implemented to visualize and 
-                analyze the results. It was observed that machine learning exhibited high efficiency, and the accuracy
-                of the predictions was deemed satisfactory.
-                This work demonstrated the power and potential of various machine learning models in the realm of artificial intelligence programming for evapotranspiration prediction. The findings of this research are expected to significantly improve irrigation planning and contribute to effective water management strategies.</span></p>
-                 <button onclick="ReadMore()" id="myBtn">Read More</button>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non expedita quam veritatis laudantium facere omnis, aperiam quaerat pariatur voluptate dicta soluta recusandae commodi a qui impedit quae sed minus? Velit!.</span></p>
+                
                  <br>
                  <br>
 
-                 <a href="#" class="btn btn-primary">View Project</a>
+                 <a href="#" class="btn btn-primary">View Code</a>
             </div>
           </div>
           <div class="card m-2" style="width: 20rem;">
