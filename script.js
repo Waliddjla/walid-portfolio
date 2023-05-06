@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   //Read more less fuction
-  function ReadMore(divId,dotsId, moreId, btnId) {
+  function ReadMore(dotsId, moreId, btnId) {
     const dots = document.getElementById(dotsId);
     const moreText = document.getElementById(moreId);
     const btnText = document.getElementById(btnId);
