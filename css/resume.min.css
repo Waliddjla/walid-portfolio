@@ -332,7 +332,7 @@ a{
         z-index: 999;
       }
       .modal-image {
-        max-width: 450px;
+        max-width: 85%;
         max-height: 600px;
       }
       .close-button {
@@ -362,8 +362,9 @@ a{
         z-index: 999;
       }
       .modal-image {
-        max-width: 100px;
+        max-width: 85%;
         max-height: 500px;
+        z-index: 999;
       }
       .close-button {
         position: absolute;
