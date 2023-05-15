@@ -215,8 +215,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
-    
+    cursor: pointer;  
 }
 
 #red { 
@@ -239,7 +238,7 @@ a{
 .card {
     width: 20rem;
     background-color: #dee2e6;
-    border: 3px solid black;
+    border: 1px solid black;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.9);
@@ -261,7 +260,7 @@ a{
     padding: 2px;
     cursor: pointer;
     align-items: center;
-    border: 1px solid #004d61;
+    border: 0px solid #004d61;
     border-radius: 5px;
 }
 #more0, #more1, #more2, #more3, #more4,#more5 , #more6, #more7, #more8{
