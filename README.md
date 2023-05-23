@@ -1,30 +1,40 @@
-# [Start Bootstrap - Resume](https://startbootstrap.com/template-overviews/resume/)
-
-[Resume](https://startbootstrap.com/template-overviews/resume/) is a resume and CV theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features a fixed sidebar with content sections to build a simple, yet elegant resume.
+# [walid Djellali - Resume](https://waliddjla.github.io/walidjellali.github.io/)
 
 ## Preview
 
-[![Resume Preview](https://startbootstrap.com/assets/img/templates/resume.jpg)](https://blackrockdigital.github.io/startbootstrap-resume/)
+Introducing the Portfolio Wallid Djellali – your gateway to a captivating online presence that showcases your skills and achievements. Crafted with precision using HTML, CSS, Bootstrap, and JavaScript, this dynamic portfolio effortlessly highlights your unique talents and sets you apart from the competition.
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-resume/)**
+With seven meticulously designed sections, your Portfolio Wallid Djellali ensures that you make a lasting impression on potential clients, employers, or collaborators. Let's delve into the incredible benefits this exceptional portfolio brings:
 
-## Status
+# About:
+Engage your audience from the very first glance with an appealing section that tells your story concisely, providing insights into your background, personality, and professional journey.
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-resume/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-resume.svg)](https://www.npmjs.com/package/startbootstrap-resume)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-resume.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-resume)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-resume/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-resume)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-resume/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-resume?type=dev)
+Education: Showcase your educational accomplishments elegantly, including degrees, certifications, and courses that demonstrate your commitment to continuous learning and growth.
 
-## Download and Installation
+Projects: Grab attention with an enticing display of your most impressive projects. Highlighting your expertise and creativity, this section allows viewers to explore your work and envision the value you can bring to their own endeavors.
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/resume/)
-* Install via npm: `npm i startbootstrap-resume`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-resume.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-resume)
+# Skills:
+
+Instantly communicate your proficiency in a wide range of competencies. From technical abilities to soft skills, this section presents a comprehensive overview that leaves no doubt about your expertise.
+
+# Interests:
+
+Infuse personality into your portfolio by sharing your passions and hobbies. This section allows you to connect on a personal level with visitors, fostering rapport and building relationships.
+
+# Certifications:
+
+Establish credibility and authority through a dedicated area for showcasing your certifications. Demonstrating your commitment to excellence, this section solidifies your expertise in the eyes of potential clients or employers.
+
+# Contact Us: 
+
+Encourage visitors to take the next step by providing a clear and accessible way to connect with you. Whether it's for business inquiries, collaboration opportunities, or simply to offer praise, this section ensures a seamless point of contact.
+
+Unleash the power of your online presence with the Portfolio Wallid Djellali. Leave a lasting impression, captivate your audience, and unlock exciting opportunities. Take your career to new heights – get your Portfolio Wallid Djellali today!
 
 ## Usage
+To leverage the full potential of the Portfolio Wallid Djellali, follow these simple steps:
+# Clone the repository:
+git clone https://github.com/Waliddjla/walidjellali.github.io
 
 ### Basic Usage
 
@@ -34,37 +44,6 @@ After downloading, simply edit the HTML and CSS files included with the template
 
 After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
 
-#### Gulp Tasks
-
-- `gulp` the default task that builds everything
-- `gulp dev` browserSync opens the project in your default browser and live reloads when changes are made
-- `gulp sass` compiles SCSS files into CSS
-- `gulp minify-css` minifies the compiled CSS file
-- `gulp minify-js` minifies the themes JS file
-- `gulp copy` copies dependencies from node_modules to the vendor directory
-
-## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-resume/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/resume/).
-
-## Custom Builds
-
-You can hire Start Bootstrap to create a custom build of any template, or create something from scratch using Bootstrap. For more information, visit the **[custom design services page](https://startbootstrap.com/bootstrap-design-services/)**.
-
-## About
-
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
-
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
-
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
 ## Copyright and License
 
