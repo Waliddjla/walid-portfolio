@@ -34,7 +34,9 @@ Unleash the power of your online presence with the Portfolio Wallid Djellali. Le
 ## Usage
 To leverage the full potential of the Portfolio Wallid Djellali, follow these simple steps:
 # Clone the repository:
+```
 git clone https://github.com/Waliddjla/walidjellali.github.io
+```
 
 ### Basic Usage
 
