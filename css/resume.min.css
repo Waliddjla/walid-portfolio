@@ -1,6 +1,3 @@
- /* html {
-    scroll-behavior: smooth;
-} */
  body{
     font-family: 'Montserrat', sans-serif;
     padding-top:54px;
@@ -16,7 +13,8 @@ body.dark-mode {
  .Nphone, 
  .fa-phone,
  .fa-envelope,
- .Gmail{
+ .Gmail,
+ .Cv{
     color: #354F52;
 }
 .dark-mode .name,
@@ -25,6 +23,7 @@ body.dark-mode {
 .dark-mode .fa-phone,
 .dark-mode .fa-envelope,
 .dark-mode .Gmail,
+.dark-mode .Cv,
 .dark-mode .abstract #abs{
    
    color: #fff;
