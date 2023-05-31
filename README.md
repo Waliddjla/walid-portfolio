@@ -1,4 +1,4 @@
-# [walid Djellali - Resume](https://waliddjla.github.io/walidjellali.github.io/)
+# [walid Djellali - Resume](https://waliddjla.github.io/walidjellali/)
 
 ## Preview
 
